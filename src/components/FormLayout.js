@@ -14,9 +14,7 @@ export const FormLayout = ({ children }) => {
 
       {/* Bottom zigzag decoration */}
       <div className="hidden md:block absolute bottom-0 left-1/2 -translate-x-1/2 p-8">
-        <svg width="200" height="20" viewBox="0 0 200 20" fill="none">
-          <path d="M0 10L40 0L80 20L120 0L160 20L200 0" stroke="#F9818E" strokeWidth="2"/>
-        </svg>
+        
       </div>
       {/* Main container */}
       <div className="w-full max-w-[940px] mx-auto">
